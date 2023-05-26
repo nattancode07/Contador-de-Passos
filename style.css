@@ -1,0 +1,45 @@
+@charset "UTF-8"; 
+
+body{
+    height: 100vh; /* 100% da altura da viewport */
+    font: normal 15pt Arial ;
+    background-image: linear-gradient(155deg, #c170dd 0, #a460da 16.67%, #8050d7 33.33%, #4d42d4 50%, #0038d1 66.67%, #0032ce 83.33%, #002fcb 100%);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+
+}
+
+.resultado{
+    text-align: center;
+}
+
+.div_input{
+    text-align: center;
+    padding: 8px;
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

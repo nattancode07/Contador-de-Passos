@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Contar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()">.
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <section>
+        <div class="div_input">
+            <p>Inicio: <input type="number" name="inicio" id="txtini"></p>
+            <p>Fim: <input type="number" name="fim" id="txtfim"> </p>
+            <p>Passo: <input type="number" name="passo" id="txtp"></p>
+        </div> 
+        <div class="botoes">
+            <p><input class="botao" type="button" value="Contar" onclick="contar()"></p>
+            <p><input type="button" class="botao_reset" value="Resetar" onclick="reset()"></p>
+        </div>
+        <div id="res" class="resultado">
+           Preparando a contagem...
+        </div>
+    </section>
+    
+        <div class="footer">
+            <p>&copy; Elyaquim Nattan</p>
+        </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
